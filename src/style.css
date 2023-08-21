@@ -1,0 +1,29 @@
+.main_div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50%;
+  background-color: rgb(178, 238, 238);
+  border-radius: 20px;
+}
+h1 {
+  font-size: 60px;
+}
+.button_rapper button {
+  display: inline-block;
+  margin: 20px;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: rgb(104, 122, 239);
+}
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px gray;
+  font-weight: bolder;
+}
+body {
+  background-color: rgb(166, 171, 202);
+}
